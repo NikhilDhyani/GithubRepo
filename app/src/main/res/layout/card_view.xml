@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:id="@+id/cv_id">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/c_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/c_tv_numb"
+            android:layout_marginStart="57dp"
+            android:layout_toEndOf="@+id/c_tv_numb"
+            android:hint="Repo Name"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/c_tv_numb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="21dp"
+            android:hint="1"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
